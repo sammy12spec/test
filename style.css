@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(29, 26, 26);
+}
+
+button.profile{
+    border: 2px solid white;
+    padding: 5px 5px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+.first-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.profile-header{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 10px;
+}
+
+.profile-name{
+    margin-top: 8px;
+    color: white;
+
+}
+
+.call-scan-section{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: white;
+    margin-top: 10px;
+}
+
+.green-bar{
+    height: 100px;
+    width: 100%;
+    background-color: #00c896;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.spcacing-section{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Available{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    gap: 5px;
+}
+p{
+    margin: 0;
+    font-size: small;
+}
+
+.right-green-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.Transaction{
+    padding-bottom: 20px;
+    font-size: small;
+}
+
+.add-money{
+    border-radius: 15px;
+    padding: 5px;
+    background-color: rgb(39, 37, 37);
+    color: #00c896;
+}
+
+.three-icons-space{
+    height: 100px;
+    color: white;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: rgb(68, 65, 65);
+}
+
+.padding-around{
+    padding: 20px;
+    padding-left: 45px;
+    padding-right: 45px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opay-bank-withdraw{
+    border-radius: 10px;
+    color: #00c896;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.column-section{
+    text-align: center;
+    gap: 20px;
+}
+.opay-bank-withdraw{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgb(53, 49, 49);
+}
+
+.eight-icons-box{
+    height: 150px;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: rgb(69, 65, 65);
+}
+
+.padding-eight-icons-box{
+    padding: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.footer-section{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: black;
+    margin-top: 331px;
+    color: white;
+}
